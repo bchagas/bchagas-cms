@@ -65,5 +65,12 @@ Locomotive.configure do |config|
   # config.rack_cache = false
   #
   # Note: by default, rack/cache is disabled in the Heroku platform
+  #
+
+  config.hosting = {
+    :target     => :heroku,
+    :api_key    => '68d799bdb24528c1d611b51a566ea4424a61b7e8',
+    :app_name   => 'bchagas-cms'
+  }
 
 end
