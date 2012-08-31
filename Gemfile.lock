@@ -104,6 +104,8 @@ GEM
       rails (~> 3.0)
     fssm (0.2.9)
     haml (3.1.7)
+    heroku-api (0.1.8)
+      excon (~> 0.13.3)
     highline (1.6.14)
     hike (1.2.1)
     httparty (0.8.3)
@@ -122,6 +124,9 @@ GEM
     kgio (2.7.4)
     locomotive-aloha-rails (0.20.1.4)
       actionpack (~> 3.2.1)
+    locomotive-heroku (0.0.2)
+      heroku-api (~> 0.1.0)
+      rails (~> 3.2.5)
     locomotive-mongoid-tree (0.6.2)
       mongoid (~> 2.0)
     locomotive-tinymce-rails (3.4.7.2)
@@ -257,6 +262,7 @@ DEPENDENCIES
   cloudinary
   coffee-rails (~> 3.2.1)
   compass-rails
+  locomotive-heroku (~> 0.0.2)
   locomotive_cms (~> 2.0.0.rc9)
   rails (= 3.2.8)
   sass-rails (~> 3.2.3)

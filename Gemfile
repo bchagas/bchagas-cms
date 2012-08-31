@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 ruby '1.9.3'
 gem 'cloudinary'
+gem 'locomotive-heroku', '~> 0.0.2', :require => 'locomotive/heroku'
 gem 'locomotive_cms', '~> 2.0.0.rc9', :require => 'locomotive/engine'
 gem 'rails', '3.2.8'
 gem 'unicorn'
